@@ -1,0 +1,245 @@
+#title {
+  background-color: #1A374D;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat-Regular 400 italic';
+  background-color: #F9F5EB;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5vmax;
+  line-height: 1.5;
+}
+
+
+/* Navigation BAR */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5vmax;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* The Download Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* The title image */
+.title-image {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+}
+
+
+/*Organization message*/
+#message {
+  background-color: #B1D0E0;
+  padding: 7% 15%;
+  color: #316e9c;
+  text-align: left;
+}
+
+#message p {
+  color: #316e9c;
+  font-weight: 600;
+}
+
+.message-section {
+  padding-top: 2%;
+}
+
+
+/* features section */
+
+h3 {
+  font-family: 'Montserrat';
+  font-size: 2vmax;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #F9F5EB;
+  position: relative;
+}
+
+.icon {
+  padding: 0 30% 10px;
+  color: #B1D0E0;
+  font-size: 3rem;
+}
+
+.icon:hover {
+  color: #5BC0F8;
+  margin-bottom: 1rem;
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 1.5vmax;
+}
+
+.features-section {
+  padding: 0 5%;
+  text-align: center;
+  font-size: 2vmax;
+}
+
+
+/* Services section */
+
+.services {
+  background-color: #B1D0E0;
+  text-align: center;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  padding: 5% 5% 5%;
+}
+
+.services section.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 8px;
+  flex-grow: 1;
+
+  background: #F9F5EB;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  max-height: 400px;
+}
+
+
+.services section.card .services-icon {
+  width: 9vmax;
+  height: 9vmax;
+}
+
+.services section.card img {
+  width: 100%;
+}
+
+.services section.card h3 {
+  font-size: 100%;
+  margin: 16px 0;
+}
+
+.services section.card span {
+  font-weight: 300;
+  max-width: 240px;
+  font-size: 1.5vmax;
+  margin-bottom: 16px;
+}
+
+/* cta section */
+#cta {
+  background-color: #1A374D;
+  padding: 7% 15%;
+  color: #F9F5EB;
+}
+
+#cta h2 {
+  font-size: 3vmax;
+  text-align: center;
+}
+
+#cta img {
+  height: 3.5vmax;
+  margin-right: 8px;
+}
+
+
+a {
+  color: #F9F5EB;
+  size: 2vmax;
+  display: inline-block;
+
+}
+
+a:hover {
+  color: #5BC0F8;
+}
+
+
+
+
+
+
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #DAB52E;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.back-to-top i {
+  font-size: 28px;
+  color: #F9F5EB;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: #b08a00;
+  color: #F9F5EB;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media (max-width:1000px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .services {
+    flex-direction: column;
+  }
+
+  .services section.card {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+}
