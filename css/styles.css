@@ -154,7 +154,7 @@ p {
 .services section.card span {
   font-weight: 300;
   max-width: 240px;
-  font-size: 1.5vmax;
+  font-size: 100;
   margin-bottom: 16px;
 }
 
