@@ -98,9 +98,9 @@ h3 {
   margin-bottom: 1rem;
 }
 
-p {
+#features p {
   color: #8f8f8f;
-  font-size: 1.5vmax;
+  font-size: 100%;
 }
 
 .features-section {
