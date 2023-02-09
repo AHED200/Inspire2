@@ -106,7 +106,7 @@ h3 {
 .features-section {
   padding: 0 5%;
   text-align: center;
-  font-size: 2vmax;
+  font-size: 2dvb;
 }
 
 
@@ -155,8 +155,10 @@ h3 {
 .services section.card span {
   font-weight: 300;
   max-width: 240px;
-  font-size: 100;
+  font-size: 2dvb;
   margin-bottom: 16px;
+  color: #8f8f8f;
+
 }
 
 /* cta section */
@@ -172,7 +174,7 @@ h3 {
 }
 
 #cta img {
-  height: 3.5vmax;
+  height: 4dvb;
   margin-right: 8px;
 }
 
