@@ -63,10 +63,16 @@ h1 {
   text-align: left;
 }
 
-#message h4 {
-  color: #316e9c;
-  font-weight: 900;
+#message h2 {
+
+  font-weight: 700;
   font-size: 120%;
+}
+
+#message h4 {
+
+  font-weight: 700;
+  font-size: 100%;
 }
 
 .message-section {
@@ -111,16 +117,22 @@ h3 {
 
 
 /* Services section */
-
-.services {
+#service-div {
   background-color: #B1D0E0;
   text-align: center;
+  padding: 5% 5% 5%;
+}
+
+#service-div h1 {
+  padding-bottom: 5%;
+}
+
+.services {
   display: flex;
   flex-flow: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: stretch;
-  padding: 5% 5% 5%;
 }
 
 .services section.card {
