@@ -82,15 +82,22 @@ h1 {
 
 /* features section */
 
-h3 {
-  font-family: 'Montserrat';
-  font-size: 100%;
-}
-
 #features {
   padding: 7% 15%;
   background-color: #F9F5EB;
   position: relative;
+}
+
+#features h1 {
+  text-align: center;
+  padding-bottom: 5%;
+  background-color: #F9F5EB;
+  position: relative;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-size: 100%;
 }
 
 .icon {
