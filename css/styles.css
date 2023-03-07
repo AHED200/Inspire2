@@ -19,6 +19,7 @@ body {
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5vmax;
+  color: #313866;
   line-height: 1.5;
 }
 
@@ -42,6 +43,10 @@ h1 {
   font-size: 1.2rem;
 }
 
+#title-message {
+  color: white;
+}
+
 /* The Download Button */
 .download-button {
   margin: 5% 3% 5% 0;
@@ -53,7 +58,6 @@ h1 {
   max-width: 100%;
   position: absolute;
 }
-
 
 /* Services section */
 #service-div {
@@ -156,25 +160,74 @@ h3 {
 #message {
   background-color: #B4CDE6;
   padding: 7% 5%;
-  color: #515153;
+  color: #313866;
   text-align: left;
+}
 
+#message h1 {
+  text-align: center;
 }
 
 #message h2 {
   font-size: 2.5dvb;
-
   font-weight: 700;
 }
 
 #message h4 {
   font-size: 2dvb;
-
   font-weight: 500;
 }
 
 .message-section {
   padding-top: 2%;
+}
+
+
+/*Contact Us Form*/
+#contact {
+  background: #313866;
+  color: white;
+  text-align: center;
+  padding: 3% 5%;
+}
+
+#contact h1 {
+  color: white;
+}
+
+#contact-form {
+  display: grid;
+}
+
+.form-input {
+  font-family: inherit;
+  border-radius: 0.4rem;
+  margin: 10px;
+  padding: 10px;
+  width: 40vmax;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  color: #313866;
+}
+
+.form-input:focus,
+textarea:focus,
+input:focus {
+  outline: none;
+  border: 3px solid #B4CDE6;
+  -webkit-transition: 0.1s;
+}
+
+.form-input::placeholder {
+  color: #8a989e;
+}
+
+#submit {
+  width: 20vh;
+  background-color: #B4CDE6;
+  color: #313866;
+  font-weight: 800;
 }
 
 
