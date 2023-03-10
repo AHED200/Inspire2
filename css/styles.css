@@ -230,6 +230,13 @@ input:focus {
   font-weight: 800;
 }
 
+/* Alerts */
+.col-sm-12 {
+  display: none;
+}
+
+
+
 
 /* Footer section */
 footer {
