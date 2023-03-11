@@ -46,16 +46,16 @@ $emailMessage = "
 try {
     //Server settings
     $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'smtp-relay.sendinblue.com';                     //Set the SMTP server to send through
+    $mail->Host       = 'SMTP_DOMAIN';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'AhmedDeve@hotmail.com';                     //SMTP username
-    $mail->Password   = '6QqIDvj30skdW9yY';                               //SMTP password
+    $mail->Username   = 'USERNAME';                     //SMTP username
+    $mail->Password   = 'SMTP_PASSWORD';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;            //Enable implicit TLS encryption
     $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('contactform.itechno@sendinblue.com', 'Contact Request');
-    $mail->addAddress('Ahmed.iTechno.services@gmail.com', 'Ahmed Nasser');     //Add a recipient
+    $mail->setFrom('SENDER', 'Contact Request');
+    $mail->addAddress('RECEIVER', 'Ahmed Nasser');     //Add a recipient
 
     // //Attachments
     // $mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments
@@ -74,4 +74,5 @@ try {
 } catch (Exception $e) {
     // echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
     header("Location: https://itechno.rf.gd?status=failed#contact");
+    exit;
 }
