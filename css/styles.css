@@ -195,13 +195,24 @@ h3 {
   color: white;
 }
 
+#contact-group {
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+
 #contact-form {
   display: grid;
 }
 
-.contact-col {
-  display: inline-flex;
+#contact-information {
+  margin-top: 50px;
+}
 
+.contact-col {
+  display: inline-block;
+  justify-content: center;
 }
 
 .form-input {
