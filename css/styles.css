@@ -191,8 +191,9 @@ h3 {
   padding: 3% 5%;
 }
 
-#contact h1 {
+#contact-title {
   color: white;
+  margin-bottom: 60px;
 }
 
 #contact-group {
@@ -209,6 +210,7 @@ h3 {
 
 #contact-information {
   float: right;
+  margin-top: 10px;
 }
 
 
