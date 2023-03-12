@@ -186,13 +186,14 @@
 
         <form id="contact-form" method="post" action="./smtp/send.php">
           <h1>تواصل معنا</h1>
+          <input name="name" class="form-input" type="text" required placeholder="أسمك بالكامل*">
           <input name="subject" class="form-input" type="text" required placeholder="الموضوع*">
           <input name="email" class="form-input" type="email" required placeholder="الأيميل الخاص بك*">
           <input name="phone-number" class="form-input" type="tel" placeholder="رقم هاتفك">
           <textarea name="email-message" class="form-input" required placeholder="رسالتك*" rows="5"></textarea>
 
           <!-- Put type page their Arabic or English page -->
-          <input id="from" type="hidden" value="ar">
+          <input name="from" type="hidden" value="ar">
 
           <center> <input id="submit" type="submit" class="form-input" value="ارسال"></center>
 
