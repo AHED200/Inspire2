@@ -1,0 +1,50 @@
+body {
+    font-family: 'Noto Naskh Arabic', serif;
+    background-color: #F9F5EB;
+    direction: rtl;
+}
+
+h1 {
+    font-family: 'Noto Naskh Arabic', serif;
+    font-size: 2.5vmax;
+    color: #313866;
+    line-height: 1.5;
+}
+
+
+/* Navigation BAR */
+
+.navbar-brand {
+    font-family: 'Noto Naskh Arabic', serif;
+    font-size: 2.5vmax;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Noto Naskh Arabic', serif;
+    font-weight: 700;
+    font-size: 100%;
+}
+
+
+/*Organization message*/
+#message {
+    background-color: #B4CDE6;
+    padding: 7% 5%;
+    color: #313866;
+    text-align: right;
+}
+
+/*Contact Us Form*/
+#contact {
+    background: #313866;
+    color: white;
+    text-align: center;
+    padding: 3% 5%;
+}
+
+#contact-information {
+    float: right;
+    direction: ltr;
+    unicode-bidi: embed;
+}
