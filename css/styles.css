@@ -191,10 +191,10 @@ h3 {
   padding: 3% 5%;
 }
 
-#contact-title {
+#contact h1 {
   color: white;
-  margin-bottom: 60px;
 }
+
 
 #contact-group {
   display: flex;
@@ -210,7 +210,6 @@ h3 {
 
 #contact-information {
   float: right;
-  margin-top: 10px;
 }
 
 
@@ -220,6 +219,10 @@ h3 {
   justify-content: center;
   margin: 0 20px;
 
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+  margin-bottom: 1rem;
+  padding: 2rem;
 }
 
 .form-input {
