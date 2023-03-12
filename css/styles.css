@@ -1,0 +1,381 @@
+#title {
+  background-color: #1A374D;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat-Regular 400 italic';
+  background-color: #F9F5EB;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5vmax;
+  color: #313866;
+  line-height: 1.5;
+}
+
+
+/* Navigation BAR */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5vmax;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+#title-message {
+  color: white;
+}
+
+/* The Download Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* The title image */
+.title-image {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+}
+
+/* Services section */
+#service-div {
+  background-color: #B1D0E0;
+  text-align: center;
+  padding: 5% 5% 5%;
+}
+
+#service-div h1 {
+  padding-bottom: 5%;
+}
+
+.services {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.services section.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 8px;
+  background: #F9F5EB;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  max-height: 400px;
+}
+
+
+.services section.card .services-icon {
+  width: 9vmax;
+  height: 9vmax;
+}
+
+.services section.card img {
+  width: 100%;
+}
+
+.services section.card h3 {
+  font-size: 100%;
+  margin: 16px 0;
+}
+
+.services section.card span {
+  font-weight: 300;
+  max-width: 240px;
+  font-size: 2dvb;
+  margin-bottom: 16px;
+  color: #8f8f8f;
+
+}
+
+/* features section */
+#features {
+  padding: 7% 15%;
+  background-color: #ECF9FF;
+  position: relative;
+  color: black;
+}
+
+#features h1 {
+  text-align: center;
+  padding-bottom: 5%;
+  position: relative;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-size: 100%;
+}
+
+.icon {
+  padding: 0 30% 10px;
+  color: #B1D0E0;
+  font-size: 3rem;
+}
+
+.icon:hover {
+  color: #5BC0F8;
+  margin-bottom: 1rem;
+}
+
+#features p {
+  color: #8f8f8f;
+  font-size: 100%;
+}
+
+.features-section {
+  padding: 0 5%;
+  text-align: center;
+  font-size: 2dvb;
+}
+
+
+/*Organization message*/
+#message {
+  background-color: #B4CDE6;
+  padding: 7% 5%;
+  color: #313866;
+  text-align: left;
+}
+
+#message h1 {
+  text-align: center;
+}
+
+#message h2 {
+  font-size: 2.5dvb;
+  font-weight: 700;
+}
+
+#message h4 {
+  font-size: 120%;
+  font-weight: 500;
+}
+
+.message-section {
+  padding-top: 2%;
+}
+
+.message-section h2 {
+  text-transform: uppercase;
+}
+
+
+/*Contact Us Form*/
+#contact {
+  background: #313866;
+  color: white;
+  text-align: center;
+  padding: 3% 5%;
+}
+
+#contact h1 {
+  color: white;
+}
+
+
+#contact-group {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+#contact-form {
+  display: grid;
+  float: left;
+}
+
+#contact-information {
+  float: right;
+}
+
+
+
+.contact-col {
+  display: inline-block;
+  justify-content: center;
+  margin: 20px;
+  align-content: center;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+  margin-bottom: 1rem;
+  padding: 2rem;
+}
+
+.form-input {
+  font-family: inherit;
+  border-radius: 0.4rem;
+  margin: 10px;
+  padding: 10px;
+  width: 40vmax;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  color: #313866;
+}
+
+.form-input:focus,
+textarea:focus,
+input:focus {
+  outline: none;
+  border: 3px solid #B4CDE6;
+  -webkit-transition: 0.1s;
+}
+
+.form-input::placeholder {
+  color: #8a989e;
+}
+
+#submit {
+  width: 20vh;
+  background-color: #B4CDE6;
+  color: #313866;
+  font-weight: 800;
+}
+
+/* Alerts */
+.col-sm-12 {
+  display: none;
+}
+
+
+
+@media (max-width: 991px) {
+  .footer-col {
+    width: calc(100% / 3);
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-col {
+    width: 100%;
+  }
+}
+
+
+.contact-links {
+  margin: 0;
+  padding: 10px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+}
+
+.contact-col ul li a:hover {
+  color: #666;
+  text-decoration: none;
+}
+
+.contact-col ul li a:link {
+  color: #B4CDE6;
+  text-decoration: none;
+}
+
+.contact-links li {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  color: #666;
+}
+
+.contact-links li i {
+  margin-right: 10px;
+  font-size: 1.5rem;
+  color: #b4cde6;
+}
+
+
+
+
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #DAB52E;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.back-to-top i {
+  font-size: 28px;
+  color: #F9F5EB;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: #b08a00;
+  color: #F9F5EB;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media (max-width:1000px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .services {
+    flex-direction: column;
+  }
+
+  .services section.card {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+}
