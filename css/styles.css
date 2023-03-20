@@ -122,6 +122,10 @@ h1 {
   color: black;
 }
 
+.row {
+  justify-content: center;
+}
+
 #features h1 {
   text-align: center;
   padding-bottom: 5%;
@@ -235,7 +239,7 @@ h3 {
   border-radius: 0.4rem;
   margin: 10px;
   padding: 10px;
-  width: 40vmax;
+  width: 35vmax;
   border: none;
   margin-left: auto;
   margin-right: auto;
