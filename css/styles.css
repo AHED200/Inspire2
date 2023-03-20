@@ -251,7 +251,7 @@ textarea:focus,
 input:focus {
   outline: none;
   border: 3px solid #B4CDE6;
-  -webkit-transition: 0.1s;
+  --webkit-transition: 0.1s;
 }
 
 .form-input::placeholder {
