@@ -33,6 +33,16 @@ h1 {
   font-family: 'Ubuntu', sans-serif;
   font-size: 2.5vmax;
   font-weight: bold;
+  overflow: hidden;
+}
+
+.navbar-toggler {
+  overflow: hidden;
+}
+
+#navbar-brand {
+  padding: 0;
+  margin: 0;
 }
 
 .nav-item {
@@ -47,6 +57,12 @@ h1 {
   color: white;
 }
 
+.col-lg-6 {
+  padding: 15px 0px;
+  max-width: 100%;
+}
+
+
 /* The Download Button */
 .download-button {
   margin: 5% 3% 5% 0;
@@ -57,6 +73,7 @@ h1 {
   width: 100%;
   max-width: 100%;
   position: absolute;
+  display: block;
 }
 
 /* Services section */
@@ -94,10 +111,15 @@ h1 {
 .services section.card .services-icon {
   width: 9vmax;
   height: 9vmax;
+  overflow: hidden;
+
 }
 
 .services section.card img {
   width: 100%;
+  display: block;
+  overflow: hidden;
+
 }
 
 .services section.card h3 {
@@ -232,6 +254,8 @@ h3 {
   border-radius: 15px;
   margin-bottom: 1rem;
   padding: 2rem;
+  overflow: hidden;
+
 }
 
 .form-input {
@@ -370,6 +394,8 @@ input:focus {
   .title-image {
     position: static;
     transform: rotate(0);
+    width: 100%;
+    display: block;
   }
 }
 
@@ -378,8 +404,18 @@ input:focus {
     flex-direction: column;
   }
 
+  #navbarSupportedContent {
+    padding-top: 15px;
+  }
+
+  .navbar-toggler {
+    margin-top: 15px;
+  }
+
   .services section.card {
     margin-left: 20px;
     margin-bottom: 20px;
+    overflow: hidden;
+
   }
 }
