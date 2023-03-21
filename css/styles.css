@@ -416,6 +416,14 @@ input:focus {
     margin-left: 20px;
     margin-bottom: 20px;
     overflow: hidden;
+  }
 
+  .services {
+    overflow: hidden;
+  }
+
+  #title-message {
+    color: white;
+    overflow: hidden;
   }
 }
