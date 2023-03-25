@@ -21,6 +21,8 @@ h1 {
   font-size: 2.5vmax;
   color: #313866;
   line-height: 1.5;
+  overflow: hidden;
+
 }
 
 
@@ -142,6 +144,8 @@ h1 {
   background-color: #ECF9FF;
   position: relative;
   color: black;
+  overflow: hidden;
+
 }
 
 .row {
@@ -157,6 +161,7 @@ h1 {
 h3 {
   font-family: 'Montserrat';
   font-size: 100%;
+  overflow: hidden;
 }
 
 .icon {
@@ -188,6 +193,7 @@ h3 {
   padding: 7% 5%;
   color: #313866;
   text-align: left;
+  overflow: hidden;
 }
 
 #message h1 {
@@ -232,6 +238,7 @@ h3 {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 #contact-form {
@@ -399,7 +406,7 @@ input:focus {
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 785px) {
   .services {
     flex-direction: column;
   }
@@ -426,4 +433,13 @@ input:focus {
     color: white;
     overflow: hidden;
   }
+
+  #contact-information {
+    width: 44vmax;
+  }
+
+  #copy-right {
+    overflow: hidden;
+  }
+
 }
